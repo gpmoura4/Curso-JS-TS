@@ -1,3 +1,7 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
+
 import createsPoke from './modules/module1';
 import Pokedex from './modules/module1';
 
