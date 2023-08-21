@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(234, 160, 184);
+  --primary-color-darker: rgb(224, 85, 131);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  /* max-width: 640px; */
+  width: 70%;
+  margin: 4rem auto;
+  background: #ffffff;
+  box-shadow: #000 -0.8rem 0.8rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.results {
+  width: 70%;
+  margin: 4rem auto;
+  background: #ffffff;
+  box-shadow: #000 -0.8rem 0.8rem;
+  /* padding: 2rem; */
+  border-radius: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+
+}
+
+.container .paragraph-options {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.option-div {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  /* height: 5rem; */
+}
+
+.option-div select {
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  width: 4.3rem;
+  height: 3.5rem;
+  /* /* background-color:  */
+  color: var(--primary-color);
+}
+
+.option-div .checkbox-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid black;
+  /* border-radius: 1rem; */
+}
+
+.option-div .checkbox-input:checked {
+  background-color: var(--primary-color);
+}
+
+.option-div .checkbox-input::before {
+  color: #fff;
+}
+
+.option-div .checkbox-input:hover {
+  cursor: pointer;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.div-btn button:hover {
+  cursor: pointer;
+}
+
+.div-btn button {
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 1rem;
+  background: linear-gradient(55deg, var(--primary-color), var(--primary-color-darker));
+}
+
+
+
+
+
+
+.accepted,
+.error {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.error {}

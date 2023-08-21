@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAAAA,MAAM,eAENA,MAAM,aACNA,MAAM","sources":["webpack://aulawebpack/./src/index.js"],"sourcesContent":["alert('hello world');\r\n\r\nalert('testandoo');\r\nalert('testando5');"],"names":["alert"],"sourceRoot":""}

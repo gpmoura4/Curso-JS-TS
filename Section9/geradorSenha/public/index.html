@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas</h1>
+    </div>
+    <div class="container">
+        <p class="paragraph-options">Personalize sua senha</p>
+        <div class="option-div">
+            <p>Tamanho da senha</p>
+            <select name="password-length" id="password-length">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+            </select>
+        </div>
+        <div class="option-div">
+            <p>Adicionar números</p>
+            <input type="checkbox" class="checkbox-input">
+        </div>
+        <div class="option-div">
+            <p>Letras Maiúsculas</p>
+            <input type="checkbox" class="checkbox-input">
+        </div>
+        <div class="option-div">
+            <p>Letras Minúsculas</p>
+            <input type="checkbox" class="checkbox-input">
+        </div>
+        <div class="option-div">
+            <p>Símbolos</p>
+            <input type="checkbox" class="checkbox-input">
+        </div>
+        <div class="div-btn">
+            <button id="creates-pw-btn">Criar senha</button>
+        </div>
+    </div>
+
+    <div class="results"></div>
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
